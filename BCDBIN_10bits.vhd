@@ -31,7 +31,7 @@ architecture Hardware of BCDBIN_10bits is
 		port(
 			A,B: in std_logic_vector (9 downto 0);
 			cin: in std_logic;
-			S: out std_logic_vector (9 downto 0);
+			S: out std_logic_vector (9 downto 0)
 		);
 	end component;
 	
